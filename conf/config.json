@@ -1,0 +1,64 @@
+{
+  "participants": [
+    "team-001",
+    "team-003",
+    "team-004",
+    "team-006",
+    "team-007",
+    "team-009",
+    "team-010",
+    "team-012",
+    "team-013",
+    "team-015",
+    "team-016",
+    "team-018",
+    "team-019",
+    "team-021",
+    "team-022",
+    "team-024",
+    "team-025",
+    "team-027",
+    "team-028",
+    "team-030"
+  ],
+  "adminsNetworks": [
+    "127.0.0.1/32",
+    "10.0.0.0/8",
+    "192.168.0.0/16"
+  ],
+  "adminCredential": "your-secure-password",
+  "peerConnectionConfig": {
+    "iceServers": [
+      {
+        "urls": "turn:10.5.91.122:3478",
+        "username": "admin",
+        "credential": "credential"
+      }
+    ]
+  },
+  "grabberPingInterval": 5,
+  "serverPort": 13478,
+  "serverTLSCrtFile": null,
+  "serverTLSKeyFile": null,
+  "codecs": [
+    {
+      "type": "video",
+      "params": {
+        "mimeType": "video/VP8",
+        "clockRate": 90000,
+        "payloadType": 96,
+        "channels": 0
+      }
+    },
+    {
+      "type": "audio",
+      "params": {
+        "mimeType": "audio/opus",
+        "clockRate": 48000,
+        "payloadType": 111,
+        "channels": 2
+      }
+    }
+  ],
+  "webcamTrackCount": 2
+}
