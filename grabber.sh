@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SEAT_NUMBER=001  # Change me
-HOST_IP=10.119.84.35
+SEAT_NUMBER=team-001  # Change me
+HOST_IP=34.50.77.190
 
 # Ensure v4l-utils is installed
 if ! dpkg -s v4l-utils &>/dev/null; then
